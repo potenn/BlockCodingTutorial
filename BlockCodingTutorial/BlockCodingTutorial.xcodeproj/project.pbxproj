@@ -15,6 +15,8 @@
 		9C1AA9661E399871002D895B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C1AA9641E399871002D895B /* LaunchScreen.storyboard */; };
 		9C1AA9711E399871002D895B /* BlockCodingTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1AA9701E399871002D895B /* BlockCodingTutorialTests.m */; };
 		9C1AA97C1E399871002D895B /* BlockCodingTutorialUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1AA97B1E399871002D895B /* BlockCodingTutorialUITests.m */; };
+		9C53B5871E51AA8500D4ECFC /* BlockSampleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C53B5861E51AA8500D4ECFC /* BlockSampleTest.m */; };
+		9C53B58A1E52D60800D4ECFC /* SampleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C53B5891E52D60800D4ECFC /* SampleModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		9C1AA9771E399871002D895B /* BlockCodingTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockCodingTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C1AA97B1E399871002D895B /* BlockCodingTutorialUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockCodingTutorialUITests.m; sourceTree = "<group>"; };
 		9C1AA97D1E399871002D895B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C53B5851E51AA8500D4ECFC /* BlockSampleTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockSampleTest.h; sourceTree = "<group>"; };
+		9C53B5861E51AA8500D4ECFC /* BlockSampleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockSampleTest.m; sourceTree = "<group>"; };
+		9C53B5881E52D60800D4ECFC /* SampleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleModel.h; sourceTree = "<group>"; };
+		9C53B5891E52D60800D4ECFC /* SampleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				9C1AA9641E399871002D895B /* LaunchScreen.storyboard */,
 				9C1AA9671E399871002D895B /* Info.plist */,
 				9C1AA9561E399870002D895B /* Supporting Files */,
+				9C53B5851E51AA8500D4ECFC /* BlockSampleTest.h */,
+				9C53B5861E51AA8500D4ECFC /* BlockSampleTest.m */,
+				9C53B5881E52D60800D4ECFC /* SampleModel.h */,
+				9C53B5891E52D60800D4ECFC /* SampleModel.m */,
 			);
 			path = BlockCodingTutorial;
 			sourceTree = "<group>";
@@ -276,7 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C53B58A1E52D60800D4ECFC /* SampleModel.m in Sources */,
 				9C1AA95E1E399871002D895B /* ViewController.m in Sources */,
+				9C53B5871E51AA8500D4ECFC /* BlockSampleTest.m in Sources */,
 				9C1AA95B1E399871002D895B /* AppDelegate.m in Sources */,
 				9C1AA9581E399871002D895B /* main.m in Sources */,
 			);
@@ -429,6 +441,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PU7867VK25;
 				INFOPLIST_FILE = BlockCodingTutorial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.potenn.BlockCodingTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +454,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PU7867VK25;
 				INFOPLIST_FILE = BlockCodingTutorial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.potenn.BlockCodingTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +530,7 @@
 				9C1AA9821E399871002D895B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C1AA9831E399871002D895B /* Build configuration list for PBXNativeTarget "BlockCodingTutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +539,7 @@
 				9C1AA9851E399871002D895B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C1AA9861E399871002D895B /* Build configuration list for PBXNativeTarget "BlockCodingTutorialUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +548,7 @@
 				9C1AA9881E399871002D895B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

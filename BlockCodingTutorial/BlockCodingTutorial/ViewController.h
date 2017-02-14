@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#import "BlockSampleTest.h"
+
 @interface ViewController : UIViewController
 
 /*

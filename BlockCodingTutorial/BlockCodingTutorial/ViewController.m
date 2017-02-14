@@ -80,8 +80,11 @@
     }];
     
     
+    NSLog(@"BlockSampleTest");
+    BlockSampleTest *blockSample = [[BlockSampleTest alloc] init];
+    [blockSample configureBlock];
     
-    
+
 }
 
 #pragma mark-
@@ -96,7 +99,6 @@
     };
     
     NSLog(@"%d",myOperation());
-          
 }
 
 #pragma mark-
